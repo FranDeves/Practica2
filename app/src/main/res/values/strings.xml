@@ -5,4 +5,5 @@
     <string name="apellidos">Apellidos</string>
     <string name="telefono">Telefono</string>
     <string name="notas">Notas</string>
+    <string name="Necesario">Es necesario introducir el Nombre y el Apellido</string>
 </resources>

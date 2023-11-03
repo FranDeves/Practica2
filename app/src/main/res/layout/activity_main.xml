@@ -6,13 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="354dp"
+        android:layout_marginTop="188dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/tvFran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fran Deves - Practica 2"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btAgenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agenda" />
+
+        <Button
+            android:id="@+id/btReceta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receta" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
