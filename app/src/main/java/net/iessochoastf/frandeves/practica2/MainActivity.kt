@@ -29,5 +29,8 @@ class MainActivity : AppCompatActivity() {
         })
 
 
+        btReceta.setOnClickListener { val intent = Intent(this@MainActivity, RecetaActivity::class.java)
+         startActivity(Intent(intent))}
+
     }
 }
