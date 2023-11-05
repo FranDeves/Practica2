@@ -56,7 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
 
     <TextView
-        android:id="@+id/tvDescripcion1"
+        android:id="@+id/tvDescripcion2"
         android:layout_width="0dp"
         android:layout_height="101dp"
         android:layout_marginStart="16dp"
@@ -116,19 +116,19 @@
         android:layout_width="56dp"
         android:layout_height="22dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="5dp"
         android:text="Receta"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDescripcion1" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescripcion2" />
 
     <TextView
         android:id="@+id/tvReceta2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="699dp"
+        android:layout_height="81dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="20dp"
         android:text="Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
